@@ -1,0 +1,36 @@
+.container {
+  background: maroon;
+  width: 330px;
+  height: 380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.logo-container {
+  align-self: flex-start;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.display {
+  height: 50px;
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: gray;
+  color: white;
+  font-size: xx-large;
+  padding-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
